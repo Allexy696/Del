@@ -1,0 +1,99 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: black;
+}
+
+header {
+    background-color: orangered;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+/* Add a more modern look to the navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: orangered;
+    border-radius: 3px;
+}
+/* Improve headings hierachy */
+h1 {
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.3em;
+    color: white;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.3em;
+    color: white;
+    margin-top: 25px;
+}
+/* Enhance table styling
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #ff6347;
+    color: white;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery img {
+    width: 48%;
+    height: auto;
+}
